@@ -1,0 +1,1 @@
+fprintf(fp3, "%02X%s\n", cur_length, text_record);

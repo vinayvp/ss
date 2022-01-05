@@ -1,0 +1,18 @@
+SUM START   3000
+FIRST   LDX ZERO
+        LDA ZERO
+-   LDA ZERO
+LOOP    ADD TABLE,X
+-   TIX COUNT
+-   JLT LOOP
+-   STA TOTAL
+-   MULF    ZERO
+-   ADD ZERO
+-   RSUB    -
+TABLE   RESW    1000
+COUNT   RESW    1
+ZERO    WORD    0
+TOTAL   RESW    1
+STR1    BYTE    C'KLETECH'
+STR2    BYTE    X'F1'
+        END

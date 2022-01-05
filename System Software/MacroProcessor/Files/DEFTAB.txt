@@ -1,0 +1,10 @@
+EX1	&A,&B
+LDA	#0
+LDA	?2
+STA	?1
+MEND
+EX2	&C,&D,&E
+LDA	?1
+STA	?2
+LDA ?3
+MEND
